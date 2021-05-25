@@ -13,6 +13,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "app-dev" {
-  ami = "ami-0d5eff06f840b45e9"
+  ami = "ami-04468e03c37242e1e"
   instance_type = "t2.micro"
 }
